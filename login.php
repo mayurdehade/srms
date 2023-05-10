@@ -33,6 +33,10 @@
             height: 3rem;
             font-size: 1.5rem;
         }
+        #admin{
+            visibility: hidden;
+        }
+        
 
     </style>
 </head>
@@ -42,7 +46,7 @@
             <p class="heading">Result Management System</p>
             <p class="menu-btn">
                 <a href="index.php">Home</a>
-                <a href="login.php">Admin</a>
+                <a href="login.php" id="admin">Admin</a>
             </p>
         </div>
     </nav>
@@ -61,6 +65,9 @@
             <button type="submit" class="btn btn-primary" name="submit" id="submit">Submit</button>
         </form>
     </div>
+
+
+    
 
 
     <!-- footer -->
